@@ -10,22 +10,17 @@
  a href="url>jnf</a>)
        we can use target attributes with anchor tag
 
+< !-- 13/12/22--ON LEAVE -->
 
 
 
-
-
-<!-- 13/12/22--ON LEAVE -->
-
-
-
-<!-- 14/12/22--ON LEAVE -->
+< !-- 14/12/22--ON LEAVE -->
 
 
         
-<!--  15/12/22 -->
+< !--  15/12/22 -->
 
-1.)<!-- >   <-->    COMMENT OUT TAG
+1.)< !-- >   <-->    COMMENT OUT TAG
 2.)< !DOCTYPE>   IT TELLS THE TYPE OF DOCUMENT
 3.)<  a> ANCHOR TAG –DEFINES THE HYPERLINK…IT LINKS ONE PAGE TO ANOTHER
 < a href=”url”>bb    target=”type”< /a>
