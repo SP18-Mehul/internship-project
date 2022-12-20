@@ -752,7 +752,7 @@ document.getElementById("myheader").innerHTML = "Hello World!";
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
-<body><form> <button type="button" onclick="alert (helloworld!)">Click ME</button>
+<body><form> <button type="button" onclick="alert:(helloworld!)">Click ME</button>
 </form>
  </body>
 </html>
@@ -851,14 +851,116 @@ document.getElementById("myheader").innerHTML = "Hello World!";
   <input type="text" name="fname" id="fname">
   <input type="submit" value="submit">
   <imput type="image" src="pictures.jpg" height="100" width="50" alt="abc">
-    
+
   </form>
   
 </body>
 </html>
 
+<!-- CSS INLINE,INTERNAL AND EXTERNAL STYLE --> 19/12/22
+<!-- INLINE CSS HAS HIGHEST PRIORITY THAN INTERNAL AND EXTERNAL -->
 
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STYLESHEET</title>
+  <link rel="stylesheet"  href="stylesheet.css">
+  <style>
+    body {
+        background-color: blue;  /*SET BACKGROUND COLOR TO BLUE*/
+    }
+  </style>
+</head>
+<body style="background-color:blueviolet;">
+    <h1>nccn</h1>
+    <p>jdbd</p>
+  
+</body>
+</html>
+
+
+<!-- Background color property -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body { 
+      background-color: aquamarine;
+      opacity:0.3;
+    }
+
+    h1 {
+      background-color:rgba(0,255, 130, 0.3)      /* 0.3 is the opacity in rgba value */
+
+    }
+  </style>
+</head>
+<body>
+  <h1>idcjndci</h1>
+  <p>udhdcu</p>
+  
+</body>
+</html>
+
+<!-- BACKGROUND PROPERTIES -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      background-color: aliceblue;
+      background-attachment: scroll;
+      background-image: url(pictures.jpg);
+      background-position: 0cm;
+      background-repeat: no-repeat;
+    }
+  </style>
+</head>
+<body>
+  <h1>mnxnm</h1>
+  <p>susjsb</p>
+  
+</body>
+</html>
+
+<!-- BORDER PROPERTIES -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    h1 {
+      border-style: dashed;
+      border-radius: 0cm;
+      border-color: antiquewhite;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>hello world</h1>
+</body>
+</html>
 
 
 

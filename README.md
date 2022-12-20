@@ -60,6 +60,23 @@
 < !-- EXCEPT THIS I HAVE DONE HTML REVISION AND PRACTICE OF SO MANY TAGS -->
 
 
+19/12/22
+
+CSS-CASCADING STYLE SHEET...used to style the html document
+
+CSS SYNTAX----<style>
+    body,h1,p {
+        background-color:blue;
+    }
+
+CSS can be done in three ways 
+1.) inline- it is used to give unique style  to a single element
+2.) internal-- it is used to give unique style  to a single HTML page
+3.) external--  it is used to link the document to external css file
+
+COMMENT OUT THE CSS-- we have to apply comment inside the style tag..it starts with /* and end with */
+
+       
 </pre>
 
 
