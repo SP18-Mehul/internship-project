@@ -126,7 +126,7 @@ person.fullName.apply(person1, ["delhi", "india"]);
 
 
 
-// 02/02/2023   (2ND FEBURARY)
+// 02/02/2023   (2ND FEBURARY)   
 
 
 
@@ -394,6 +394,124 @@ function Person(first, last, age, eyecolor) {
 for (const x of "mehul") {
   return x;
 }
+
+
+
+
+
+
+// JAVASCRIPT MAPS
+
+const fruits = new Map([
+  ["apples", 500],
+  ["bananas", 300],
+  ["oranges", 200]
+]);
+
+
+const fruits = new Map();
+
+fruits.set(["apples",300]);
+fruits.set("bananas", 150);
+fruits.set("oranges", 250);
+
+document.getElementById("demo").innerHTML=fruits.get("apples");
+
+// RETURN A NUMBER OF ELEMENTS IN A MAP
+
+fruits.size;
+
+// REMOVES A MAP ELEMENT
+
+fruits.delete("apples");
+
+// Removes all the elements from the map
+
+fruits.clear();
+
+// RETURNS IF A KEY EXISTS IN A MAP OR NOT
+
+fruits.has("apples");
+
+fruits.delete("apples");
+fruits.has("apples");
+
+// TYPE OF MAPS ARE ALWAYS OBJECTS
+
+typeof (fruits);
+
+// CHECK THE TYPE OF OBJECT AT THE RUN TIME
+
+fruits instanceof Map;
+
+
+
+// STRING METHODS
+
+
+// Returns the length of the string
+
+let a="abcdef"
+let str=a.length;
+
+// String slice()
+
+let str="mehul, bajaj, hello";
+let txt=str.slice(5,10);
+let txt=str.slice(-6,-12);
+
+// A string is converted to upper case with toUpperCase()
+
+let txt1="mehulbajaj";
+let txt2=txt1.toUpperCas();
+
+
+
+// A string is converted to lower case with toLowerCase()
+
+let txt1="HELLOWORLD";
+let txt2=txt1.toLowerCase();
+
+
+// CONCAT==TO ADD TWO STRINGS TOGETHER
+
+let txt1="hello";
+let txt2="world";
+
+let txt3=txt1.concat(txt2);
+
+
+
+// ANOTHER WAY OF CONCATING TWO STRINGS
+
+text = "Hello" + " " + "World!";
+text = "Hello".concat(" ", "World!");
+
+
+ // Split on commas
+
+text.split(",")
+
+
+// Split on spaces
+
+
+text.split(" ")
+
+
+// Split on pipe
+
+
+text.split("|")  
+
+
+
+// With template literals, you can use both single and double quotes inside a string
+
+let text = `He's in love with his "country"`;
+
+
+
 
 
 
